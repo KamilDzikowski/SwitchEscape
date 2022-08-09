@@ -1,6 +1,6 @@
 # SwitchEscape
 
-This is an entirely original (including graphic) example platformer game created with C++ and the allegro game engine.
+This is an entirely original (including graphic) simple platformer game created with C++ and the allegro game engine.
 
 # How to run locally?
 
