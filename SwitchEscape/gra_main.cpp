@@ -63,7 +63,7 @@ int main(){
     clear_to_color(screen,makecol(255,255,255));
     #include "mapa.h"
     ETAP* etap[ilosc_etapow];
- /*   for(int i=0;i<ilosc_etapow;i++) etap[i] = new ETAP(mapa[i],dzwignia[i]);
+    for(int i=0;i<ilosc_etapow;i++) etap[i] = new ETAP(mapa[i],dzwignia[i]);
     short int a,level=0;
     while(!key[KEY_ESC]){
                          rest(opoznienie);
@@ -83,7 +83,7 @@ int main(){
                          if(a==3){rest(opoznienie*10);level++;}
                          if(level==ilosc_etapow)break;}
     for(int i=0;i<ilosc_etapow;i++){
-            delete etap[i];} */
+            delete etap[i];} 
     clear_keybuf();
     allegro_exit();
 	return 0;}
